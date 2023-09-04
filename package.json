@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/mobinhimu/react-fast-pizza-mobin",
+  "homepage": "https://github.com/mobinhimu/react-fast-pizza",
   "name": "fast-react-pizza",
   "private": true,
   "version": "0.0.0",
@@ -8,9 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
